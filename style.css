@@ -1,0 +1,906 @@
+
+@keyframes transition1 {
+
+    from {
+
+        font-size: 50px;
+        color: white;
+    }
+
+
+    to {
+
+        font-size: 55px;
+        color: #e13c68;
+
+    }
+
+}
+
+@keyframes transition2 {
+
+    from {
+
+        font-size: 55px;
+        color: #e13c68;
+
+    }
+
+    to {
+
+        font-size: 50px;
+        color: white;
+
+    }
+
+
+}
+
+
+
+
+@keyframes transition5 {
+
+    from {
+
+       
+        
+        color: black;
+        font-size: 40px;
+    
+
+    }
+
+    to {
+
+        
+        color: white;
+        font-size: 45px;
+
+    }
+
+}
+
+@keyframes transition6 {
+
+    from {
+
+       
+        
+        
+        color: white;
+        font-size: 45px;
+    
+
+    }
+
+    to {
+
+        color: black;
+        font-size: 40px;
+        
+
+    }
+
+}
+
+@keyframes transition7 {
+
+    from {
+
+        width: 500px;
+
+    }
+
+    to {
+
+        width: 510px;
+
+    }
+    
+}
+
+@keyframes transition8 {
+
+    from {
+
+        width: 510px;
+
+    }
+
+    to {
+
+        width: 500px;
+
+    }
+
+}
+
+@keyframes transition9 {
+
+    from {
+
+        color: white;
+        font-size: 19px;
+        
+        
+        
+
+    }
+
+    to {
+
+        color: black;
+        font-size: 22px;
+
+    }
+
+}
+
+@keyframes transition10 {
+
+    from {
+
+        
+        color: black;
+        font-size: 22px;
+        
+        
+        
+
+    }
+
+    to {
+
+        color: white;
+        font-size: 19px;
+
+    }
+
+}
+
+@keyframes transition11 {
+
+    from {
+
+        transform: scale(1);
+
+    }
+
+    to {
+
+        transform: scale(1.1);
+
+    }
+
+}
+
+
+@keyframes transition12 {
+
+    from {
+
+        
+        transform: scale(1.1);
+
+    }
+
+    to {
+
+        transform: scale(1);
+
+    }
+
+}
+
+
+
+
+
+*{
+
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: transition0 0.7s;
+
+
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.Header {
+
+    background-color: #1c1e27;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+
+
+}
+
+.Logo {
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 1.8em;
+
+}
+
+.Navigation a {
+
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 1.3em;
+padding-left: 75px;
+padding-top: 5px;
+
+
+
+}
+
+.Navigation a:hover {
+
+    color: #e13c68;
+
+}
+
+
+section {
+
+padding: 100px 200px;
+
+}
+
+.Main {
+
+    background: url(/Resources/GettyImages_1248901260.0.png) no-repeat;
+    background-blend-mode: color;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.Overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+    
+    
+
+}
+
+.Text {
+
+z-index: 1;
+text-align: center;
+margin-left: 23%;
+min-height: 275px;
+}
+
+
+.h2 {
+
+font-size: 50px;
+margin-bottom: 0;
+animation: transition2 0.9s;
+
+}
+
+.Spanion {
+
+font-size: 35px;
+animation: transition4 0.7s;
+
+}
+
+.Line {
+
+    margin-top: 0;
+    font-size: 40px;
+    padding: 0;
+    color: #e13c68;
+    animation: transition6 0.5s;
+    min-height: 50px;
+    
+
+}
+
+.h2:hover {
+
+    font-size: 55px;
+    color: #e13c68;
+    animation: transition1 0.9s;
+
+}
+
+
+    
+
+.Button {
+
+    border-radius: 25px;
+    background: #e13c68;
+    animation: transition8 0.5s;
+    padding: 10px;
+    border: 0px;
+
+
+}
+
+.Link {
+
+    font-size: 40px;
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    animation: transition6 0.5s;
+    font-weight: 500;
+    
+
+}
+
+
+
+.Link:hover {
+
+    color: white;
+    font-size: 45px;
+    animation: transition5 0.5s;
+    
+
+}
+
+.Image {
+
+    width: 500px;
+    border: 5px #e13c68 solid;
+    border-radius: 15px;
+    animation: transition8 0.7s;
+    
+    
+
+}
+
+.h1 {
+
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    
+    
+    
+
+    
+
+}
+
+.More {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.P {
+
+    margin-left: 100px;
+    font-size: 19px;
+    position: relative;
+    
+    
+
+
+}
+
+.Content {
+
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Image:hover {
+
+    animation: transition7 0.7s;
+    width: 510px;
+    position: relative;
+
+}
+
+.Courses {
+
+    background-color: #1c1e27;
+    
+
+}
+
+.Headerrr {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.Content {
+
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+
+
+
+.Card {
+
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 25px;
+    padding: 25px;
+    margin: 15px;
+    animation: transition12 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    
+
+
+}
+
+.Card:hover {
+
+    transform: scale(1.1);
+    animation: transition11 0.5s;
+
+}
+
+
+
+.Info h3 {
+
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.Info p {
+
+    text-align: center;
+    font-size: larger;
+
+}
+
+.Projects {
+
+    background-color: rgb(62, 62, 62)
+
+}
+
+.Proj-Head {
+
+    display: flex;
+    justify-content: center;
+     display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+
+
+.Wtf {
+
+margin-top: 20px;
+margin-right: 50px;
+
+}
+
+.Info a {
+
+text-decoration: none;
+color: white;
+background-color:#efc330;
+border-radius: 20px;
+padding: 10px;
+font-size: 19px;
+animation: transition10 0.7s;
+margin-right: 30px;
+
+
+}
+
+
+.Info a:hover {
+
+color: black;
+font-size: 22px;
+animation: transition9 0.7s;
+    
+
+}
+
+
+
+.Proj_Image {
+
+    width: 100%;
+
+}
+
+.Button1 {
+
+    border-radius: 25px;
+    background: #efc330;
+    animation: transition8 0.5s;
+    margin-top: 30px;
+    border: 0px;
+    margin-left: 37%;
+    padding: 10px;
+    position: relative;
+    transition: 0.5s ease-out;
+    
+
+
+}
+
+.Link5 {
+
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.5s ease;
+    
+    
+
+}
+
+.Button1:hover {
+
+    background-color: #e13c68;
+    transition: 0.5s ease-out;
+    transform: scale(1.1);
+
+}
+
+.Link5:hover {
+
+    color: white;
+    transition: 0.5s ease;
+
+}
+
+.Contacts {
+
+    align-items: center;
+    
+
+}
+
+.H1C {
+
+    color: black;
+    font-size: 35px;
+    margin-left: 42%;
+
+}
+
+.Icon1 {
+
+    color: #e13c68;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+    
+
+
+}
+
+.Info h3 {
+
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.Info p {
+
+    text-align: center;
+    font-size: larger;
+    margin-left: 30px;
+
+}
+
+.Content {
+
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.FOOTER {
+
+    background-color: rgb(62, 62, 62)
+
+}
+
+.footer {
+color: white;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-size: x-large;
+
+
+}
+
+
+.Iconat {
+    color: white;
+    width: 40px;
+    height: 40px;
+    animation: transition12 0.5s;
+    position: static;
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+
+.PicDiv {
+
+    display: flex;
+justify-content: center;
+
+}
+
+
+.Infoh3 {
+
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+
+.Infop {
+
+    text-align: center;
+    padding-left: 38px; 
+
+}
+
+.Instagram {
+
+    margin-right: 50px;
+
+}
+
+@media (max-width: 1023px) {
+
+    .Header {
+
+        padding: 12px 20px;
+        justify-content: space-between;
+
+    }
+
+    .Navigation a {
+
+        font-size: 15px;
+        padding-top: 0;
+
+    }
+
+    .Logo {
+
+        font-size: 20px;
+
+    }
+
+    section {
+
+        padding: 80px 20px;
+
+    }
+
+    .Main {
+
+        font-size: 40px;
+        width: 220%; 
+    }
+
+    .Overlay {
+
+        width: 220%;
+    }
+
+    .Text {
+
+        font-size: 10px;
+
+    }
+
+    .h2 {
+
+        font-size: 4.5em;
+
+    }
+
+    .Link {
+
+        font-size: 2.5em;
+
+    }
+
+    .Image {
+
+        justify-content: center;
+        width: 325px;
+        
+
+    }
+
+    .P {
+
+        text-align: center;
+        width: 380px;
+        justify-content: center;
+        font-size: 20px;
+
+    }
+
+    .h1 {
+
+        text-align: center;
+        padding-left: 20px;
+        
+
+    }
+
+    .Text2 {
+
+
+        align-items: center;
+        
+    }
+
+    .Courses {
+
+        width: 220%;
+
+    }
+
+    .Content {
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Card {
+
+        margin-left: 80px;
+
+    }
+
+    .Headerrr {
+
+        margin-left: 60px;
+
+    }
+
+    .Contacts {
+
+        width: 200%;
+
+    }
+
+    .Contacts .Content {
+
+        margin-left: 70px;
+
+    }
+
+    .H1C {
+
+        margin-left: 47%;
+    }
+
+    .Infoh3 {
+
+        margin-right: 50px;
+
+    }
+
+    .Infop {
+
+        margin-right: 50px;
+
+    }
+
+    .Boom {
+
+        padding-right: 40px
+
+    }
+
+    .Icon1 {
+
+        margin-right: 75px;
+        padding-left: 0px;
+        
+
+    }
+
+    .FOOTER {
+
+        width: 200%;
+
+    }
+
+}
+
+@media (max-width: 641px) {
+
+    body {
+    
+        font-size: 12px;
+    
+    
+    }
+    
+    
+    }
+
+
